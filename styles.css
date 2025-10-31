@@ -1,0 +1,62 @@
+/* General selector  */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow: hidden; */
+     background-color: rgba(0, 0, 255, 0.481);
+}
+
+img {
+    height: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #08003cdb;
+    padding: 30px;
+
+}
+
+button {
+    width: 10rem;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: #6636e5;
+    border: 0px;
+    color: aliceblue;
+
+}
+
+
+
+section {
+    width: 100vw;
+    height: 80Vh;
+    background-size: cover;
+    animation: skip 10s linear infinite;
+    background-Image: url(./images/IMG-20220106-WA0044.jpg);
+}
+
+@keyframes skip {
+    0% {
+        background-image: url(./images/images.jpg);
+    }
+
+    20% {
+        background-image: url(./images/IMG-20220106-WA0044.jpg);
+    }
+
+    40% {
+        background-image: url(./images/images\ \(1\).jpg);
+    }
+
+    100% {
+        background-image: url(./images/IMG-20240622-WA0100.jpg);
+    }
+}
+h1{
+    color: white;
+}
